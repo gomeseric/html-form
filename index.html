@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="body">
+           <div class="title">
+            <p>Payment Form Example</p>
+           </div>
+        
+           <div class="missing">
+             <h1>Some fields are missing</h1>
+           </div>
+
+           <div class="forms-top">
+             <form>
+                <fieldset>
+                  <label for="card">Card #</label>
+                  <input type="text" id="card" name="card" value="XXXXXX">
+                  <label for="cvc">CVC #</label>
+                  <input type="text" id="cvc" name="cvc" value="0000">
+                  <label for="amount">Amount</label>
+                  <span class="dollar-sign">$</span>
+                  <input type="text" id="amount" name="amount" value="Amount">
+                </fieldset>
+             </form>
+           </div>
+
+           <div class="forms-bottom">
+              <div class="bottom-left">
+              <form>
+                <fieldset>
+                    
+                    <label for="first">First Name</label>
+                    <input type="text" id="first" name="name">
+
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city">
+                
+                    <div class="acceptance">
+                        <p>We Accept:</p>
+                        <label>
+                            <input type="radio" name="cards">
+                            <i class="fas"></i>
+                        </label>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+
+                        <label>
+                            <input type="radio" name="cards" value="visa">
+                            <i class="fas"></i>
+                        </label>
+                        <i class="fa-brands fa-cc-visa"></i>
+                    
+                        <label>
+                            <input type="radio" name="cards" value="visa">
+                            <i class="fas"></i>
+                        </label>
+                        <i class="fa-brands fa-cc-diners-club"></i>
+
+                        <label>
+                            <input type="radio" name="cards" value="visa">
+                            <i class="fas"></i>
+                        </label>
+                        <i class="fa-brands fa-cc-amex"></i>
+                    
+
+                </fieldset>
+              </form>
+
+              </div>
+
+              <div class="bottom-right"></div>
+              <form>
+                <fieldset>
+                    <label for="last">Last Name</label>
+                    <input type="text" id="last" name="last">
+                    <div class="middle">
+                        <div class="mid-left">
+                        <label for="state">State</label>
+                        <<select name="state" id="state"></label>
+                            <option value="florida">Florida</option>
+                            <option value="georgia">Georgia</option>
+                            <option value="north carolina">North Carolina</option>
+                            <option value="south carolina">South Carolina</option>
+                            <option value="kentucky">Kentucky</option>
+                            <option value="new york">New York</option>
+                            <option value="new jersey">New Jersey</option>
+                            <option value="maine">Maine</option>
+                            <option value="california">California</option>
+                            <option value="oregon">Oregon</option>
+                            <option value="nevada">Nevada</option>
+                            <option value="texas">Texas</option>
+                            <option value="kansas">Kansas</option>
+                            <option value="idaho">Idaho</option>
+                            <option value="wisconsin">Wisconsin</option>
+                            <option value="illinois">Illinois</option>
+                          </select>
+                        </div>
+                        <div class="mid-right">
+                            <label for="postal">Postal Code</label>
+                            <input type="text" id="postal" name="postal">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="3"></textarea>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                </fieldset>
+            
+              </form>
+
+            
+              <div class="bottom">
+                  <div class="cancel">
+                  <input type="submit" value="Cancel">
+                  </div>
+                  <div class="submit">
+                    <input type="submit" value="Submit">
+                  </div>
+
+              </div>
+              </div>
+
+              
+        </div>
+    </body>
+
+</html>

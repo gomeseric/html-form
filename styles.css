@@ -1,0 +1,55 @@
+
+body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite ;
+}
+.body {
+    background-color: white;
+    height: 50%;
+}
+.title {
+    width: 100%;
+    font-size: 30px;
+    background-color: rgb(228, 225, 241);
+
+}
+.missing {
+    background-color: rgb(255, 106, 106);
+    color: rgb(102, 0, 0);
+    font-size: 12px;
+    width: 100%;
+}
+.forms-top {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.forms-bottom {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.bottom-left {
+    display: flex;
+    position: relative;
+    
+}
+.acceptance {
+    justify-content: space-around;
+}
+.bottom {
+    background-color: rgb(228, 225, 241);
+    display: flex;
+    position: absolute;
+    right: 450px;
+}
+.cancel {
+    background-color: rgb(184, 184, 184);
+}
